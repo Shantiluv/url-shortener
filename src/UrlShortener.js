@@ -103,7 +103,7 @@ const UrlShortener = () => {
 
                 <form id="url-form"  className="form-search d-flex align-items-stretch mb-3">
                   <input type="hidden" id="shortened-url" />
-                  <input type="text" id="url-input" className="form-control" placeholder="https://yourlongurl.com/that/you/want/to/make/shorter" value={longUrl} onChange={handleUrlChange} onKeyUp={handleUrlChange} />
+                  <input type="text" id="url-input" className="form-control" placeholder="https://yourlongurl.com/that/you/want/to/shorten" value={longUrl} onChange={handleUrlChange} onKeyUp={handleUrlChange} />
                   <button type="button" id="shorten-btn" onClick={handleShortenUrl} className="btn btn-primary">SHORTEN</button>
                 </form>
 
