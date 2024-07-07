@@ -78,7 +78,7 @@ const UrlShortener = () => {
       <header id="header" className="header d-flex align-items-center">
         <div className="container-fluid container-xl position-relative d-flex align-items-center">
           <a href="/" className="logo d-flex align-items-center me-auto">
-            <h1 className="sitename">ShantiTiny URL Shortner</h1>
+            <h1 className="sitename">ShanTiny URL Shortner</h1>
           </a>
 
           <nav id="navmenu" className="navmenu">
